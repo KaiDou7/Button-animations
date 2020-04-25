@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.neumorphism {
+  height: 100vh;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2em;
+  border: 1px solid #00000050;
+  box-shadow: inset 0.4em 0.4em 0.5em rgba(0, 0, 0, 0.212),
+    inset -0.4em -0.4em 0.5em rgba(255, 255, 255, 0.719);
+  position: relative;
+}
+
+.neu {
+  text-decoration: none;
+  color: rgb(149, 56, 185);
+  background-color: #eeeeee;
+  padding: 1em 2em;
+  border-radius: 1em;
+  box-shadow: 0.4em 0.4em 0.5em rgba(0, 0, 0, 0.212),
+    -0.4em -0.4em 0.5em rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.neu:hover {
+  box-shadow: inset 0.4em 0.4em 0.5em rgba(0, 0, 0, 0.212),
+    inset -0.4em -0.4em 0.5em rgba(255, 255, 255, 0.8);
+}
+
+.neumorphism button {
+  position: absolute;
+  top: 5%;
+  right: 9%;
+  cursor: pointer;
+  height: 10vh;
+  width: 10vh;
+  border: none;
+  border-radius: 5vh;
+  outline: none;
+  box-shadow: .4em .4em .5em rgba(0, 0, 0, 0.212), -.4em -.4em .5em rgba(255, 255, 255, 0.8);
+}
+.neumorphism button img {
+  height: 8vh;
+  width: 7vh;
+}
+
+.night-mode {
+  background-color: rgba(22, 21, 21, 0.8);
+  box-shadow: inset 0.4em 0.4em 0.7em rgba(255, 255, 255, 0.4),
+    inset -0.4em -0.4em 0.5em rgba(0, 0, 0, 0.6);
+}
+.night-btn {
+  background-color: rgba(22, 21, 21, 0.6);
+  box-shadow: inset 0.4em 0.4em 0.7em rgba(255, 255, 255, 0.2),
+    inset -0.4em -0.4em 0.5em rgba(0, 0, 0, 0.6);
+  color: rgb(241, 199, 134);
+}
+.night-btn:hover {
+  box-shadow: inset 0.4em 0.4em 0.7em rgba(0, 0, 0, 0.6),
+    inset -0.4em -0.4em 0.5em rgba(255, 255, 255, 0.2);
+}
+.image {
+  background-color: rgb(241, 199, 134);
+}
